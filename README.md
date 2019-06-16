@@ -24,6 +24,8 @@
 
 1.+ - * / %
 
+2.and or
+
 # 4.输入输出函数
 
 1.print
@@ -48,6 +50,34 @@
 
 以此类推
 
-# 7.
+# 7.流程控制
+## 7.1 条件控制
+### 7.1.1 if
+```
+if score > 90:
+    print('A')
+elif score > 80:
+    print('B')
+else:
+    print('B')
+```
+
+## 7.2 循环
+### 7.2.1 for
+```
+for elem in list:
+    print(elem)
+```
+### 7.2.2 while
+```
+a = 1
+b = 3
+while a < b:
+    print('a < b')
+    a++;
+```
+### 7.2.3 continue
+
+### 7.2.4 break
 
 
